@@ -88,6 +88,8 @@ An internet connection is required to load the Unsplash images.
 ## 🔐 Login Form
 
 The login form is included for front-end demonstration purposes only. It does not authenticate users or store personal information.
+## website screenshot
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/4a66795e-2f06-4fc6-8f69-770002c64a7e" />
 
 ## 🎯 Learning Outcomes
 
