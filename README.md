@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 # 🌿 Fieldnotes – Flexbox Landing Page
 
@@ -108,3 +109,6 @@ B.Tech – Computer Science and Engineering
 ---
 
 ⭐ Created with HTML, CSS, Flexbox and creativity!
+=======
+# 506-anushka-webdev-day07-flexbox-landing
+>>>>>>> 601a556e766b6bc5827d41ca319164f0f4bd66a1
