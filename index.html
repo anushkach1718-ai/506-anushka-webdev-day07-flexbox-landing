@@ -1,0 +1,176 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Fieldnotes outdoor gear, equipment and adventure essentials.">
+  <title>Fieldnotes | Gear for the Outdoors</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header class="navbar">
+    <a href="#" class="logo">FIELDNOTES<span>.</span></a>
+
+    <nav class="nav-links">
+      <a href="#home">Home</a>
+      <a href="#products">Products</a>
+      <a href="#membership">Membership</a>
+      <a href="#login">Login</a>
+    </nav>
+
+    <a href="#products" class="nav-btn">Explore Gear ↗</a>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <p class="eyebrow">GEAR UP. GET OUT.</p>
+      <h1>Find your next<br>great <span>escape.</span></h1>
+      <p class="hero-text">
+        Thoughtfully designed outdoor essentials for
+        people who would rather be outside.
+      </p>
+      <a href="#products" class="primary-btn">Explore Collection →</a>
+    </div>
+  </section>
+
+  <!-- Products -->
+  <section class="products section" id="products">
+    <div class="section-heading">
+      <p class="eyebrow">BUILT FOR ADVENTURE</p>
+      <h2>Explore our collection</h2>
+      <p>Reliable essentials for every journey.</p>
+    </div>
+
+    <div class="product-container">
+
+      <div class="product-card">
+        <img src="https://images.unsplash.com/photo-1551632811-561732d1e306?w=700" alt="Hiking backpack">
+        <div class="product-info">
+          <h3>Adventure Backpack</h3>
+          <p>Lightweight and travel ready.</p>
+          <strong>₹2,499</strong>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=700" alt="Camping tent in nature">
+        <div class="product-info">
+          <h3>Explorer Tent</h3>
+          <p>Your home under the stars.</p>
+          <strong>₹4,999</strong>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=700" alt="Outdoor sports shoes">
+        <div class="product-info">
+          <h3>Trail Sneakers</h3>
+          <p>Comfort for every step.</p>
+          <strong>₹3,299</strong>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="https://images.unsplash.com/photo-1500534623283-312aade485b7?w=700" alt="Mountain landscape">
+        <div class="product-info">
+          <h3>Travel Essentials</h3>
+          <p>Everything for the outdoors.</p>
+          <strong>₹1,899</strong>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Membership -->
+  <section class="membership section" id="membership">
+    <div class="section-heading">
+      <p class="eyebrow">MORE ADVENTURE. MORE VALUE.</p>
+      <h2>Choose your membership</h2>
+      <p>Make every adventure count.</p>
+    </div>
+
+    <div class="pricing-container">
+
+      <div class="price-card">
+        <h3>Explorer</h3>
+        <h2>Free</h2>
+        <p>Perfect for getting started.</p>
+        <ul>
+          <li>✓ Access to collections</li>
+          <li>✓ Monthly newsletters</li>
+          <li>✓ Standard support</li>
+        </ul>
+        <a href="#login" class="price-btn">Get Started</a>
+      </div>
+
+      <div class="price-card featured">
+        <span class="popular">POPULAR</span>
+        <h3>Adventurer</h3>
+        <h2>₹499 <small>/month</small></h2>
+        <p>For regular explorers.</p>
+        <ul>
+          <li>✓ Everything in Explorer</li>
+          <li>✓ Exclusive discounts</li>
+          <li>✓ Priority support</li>
+        </ul>
+        <a href="#login" class="price-btn">Join Now</a>
+      </div>
+
+      <div class="price-card">
+        <h3>Trailblazer</h3>
+        <h2>₹999 <small>/month</small></h2>
+        <p>For the ultimate adventure.</p>
+        <ul>
+          <li>✓ Everything in Adventurer</li>
+          <li>✓ Premium offers</li>
+          <li>✓ Special member rewards</li>
+        </ul>
+        <a href="#login" class="price-btn">Go Premium</a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Login -->
+  <section class="login-section" id="login">
+    <div class="login-card">
+      <p class="eyebrow">WELCOME BACK</p>
+      <h2>Ready for adventure?</h2>
+      <p>Log in to your Fieldnotes account.</p>
+
+      <form id="loginForm">
+        <label for="email">Email Address</label>
+        <input type="email" id="email" placeholder="Enter your email" required>
+
+        <label for="password">Password</label>
+        <input type="password" id="password" placeholder="Enter your password" required>
+
+        <button type="submit" class="primary-btn login-btn">Log In</button>
+      </form>
+      <p class="form-message" id="formMessage"></p>
+      <p class="demo-note">Demo form only. No information is stored.</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <a href="#home" class="logo">FIELDNOTES<span>.</span></a>
+    <p>Made for the wild. Built for the journey.</p>
+    <p>© 2026 Fieldnotes. All rights reserved.</p>
+  </footer>
+
+  <script>
+    document.getElementById("loginForm").addEventListener("submit", function(event) {
+      event.preventDefault();
+      document.getElementById("formMessage").textContent =
+        "Demo login submitted successfully!";
+    });
+  </script>
+
+</body>
+</html>
